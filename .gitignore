@@ -1,8 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # pngs (just my headshot and logo)
-*.png
-*.pdf
 
 # dependencies
 /node_modules
