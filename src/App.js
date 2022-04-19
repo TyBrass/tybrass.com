@@ -1,7 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from './assets/ty-brass-logo-inverted.png';
 import resume from './assets/Ty-Brass-2022-resume.pdf#zoom=scale';
 import headshot from './assets/ty-brass-headshot.png';
+import envelope from './assets/envelope.png'
+import linkedin from './assets/linkedin.png'
 
 function App() {
   return (
@@ -69,8 +70,8 @@ function App() {
           <p>Like I said above, I'm looking for a job. Don't hesitate if you'd like to chat.
             <br></br><br></br>Click one of the fancy icons below (or just reach me at tybrass@outlook.com)</p>
           <div className="contact-links">
-            <a href="https://www.linkedin.com/in/tybrass/"><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
-            <a href="mailto:tybrass@outlook.com"><FontAwesomeIcon icon="fa-solid fa-envelope" /></a>
+            <a href="https://www.linkedin.com/in/tybrass/"><img src={linkedin} className="linkedin"></img></a>
+            <a href="mailto:tybrass@outlook.com"><img src={envelope} className="envelope"></img></a>
           </div>
         </div>
       </main >

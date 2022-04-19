@@ -114,6 +114,20 @@ main > div {
 /* Contact Me */
 .contact-div {
   background-color:violet;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.contact-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+  gap: 80px;
+}
+
+.contact-div img {
+  width: 50px;
 }
 
 /* Footer (sits within main */
