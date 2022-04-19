@@ -51,7 +51,7 @@ header {
 
 /* Main */
 main {
-  margin: 200px auto 50px auto;
+  margin: 180px auto 50px auto;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
@@ -83,6 +83,18 @@ main > div {
 /* About Me */
 .about-me-div {
   background-color: aliceblue;
+  display: flex;
+}
+
+.about-text-div {
+  background-color: aqua;
+}
+
+.about-me-div img {
+  margin-top: 40px;
+  border-radius: 10%;
+  border: 2px solid black;
+  box-shadow: 5px 10px;
 }
 
 .headshot {
@@ -95,7 +107,7 @@ main > div {
 }
 
 .resume {
-  height: 100vh;
+  height: 80vh;
   max-width: 1000px;
 }
 
@@ -133,5 +145,8 @@ footer {
   main > div {
     margin: 0 15px 0 15px;
     box-shadow: 5px 10px;
+  }
+  .about-me-div img {
+    display: none;
   }
 }
