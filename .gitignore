@@ -2,6 +2,7 @@
 
 # pngs (just my headshot and logo)
 *.png
+*.pdf
 
 # dependencies
 /node_modules

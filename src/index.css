@@ -5,9 +5,114 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*border: solid #00A2FF 2px;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Header Bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00A2FF;
+  position: fixed;
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  left: 0;
+  top: 0;
+}
+
+.logo-div {
+  display: flex;
+  flex: 2 2 auto;
+  gap: 20px;
+}
+
+.logo {
+  height: 80px;
+  margin-left: 200px;
+  width: auto;
+  
+}
+
+.header-links-div {
+  display: flex;
+  gap: 10px;
+  align-items:center;
+  margin-right: 200px;
+}
+
+.header-links-div a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+main {
+  margin: 200px auto 50px auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+main > div {
+  padding: 0 40px 0 40px;
+}
+
+/* Intro */
+.intro-div {
+  background-color: bisque;
+  box-shadow: 10px 20px;
+}
+
+.hi-im {
+  font-size: 2rem;
+  display: block;
+  width: 200px;
+}
+
+.intro-div h1 {
+  width: auto;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+/* About Me */
+.about-me-div {
+  background-color: aliceblue;
+  box-shadow: 10px 20px;
+}
+
+.headshot {
+  max-width: 200px;
+}
+
+/* Resume */
+.resume-div {
+  background-color: aquamarine;
+  box-shadow: 10px 20px;
+}
+
+.resume {
+  height: 100vh;
+  max-width: 1000px;
+}
+
+/* Contact Me */
+.contact-div {
+  background-color:violet;
+  box-shadow: 10px 20px;
+}
+
+/* Footer (sits within main */
+footer {
+  background-color: #00A2FF; 
+  color: white;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  font-size: 0.8rem;
 }
