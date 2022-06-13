@@ -51,9 +51,6 @@ function App() {
               environment working alongside other developers where I can learn from others and
               solve problems that I would never encounter when developing personal projects.</p>
           </div>
-          <div className="about-image-div">
-            <img src={headshot} className="headshot" alt="Headshot of me, Ty"></img>
-          </div>
         </div>
 
         {/* Resume */}
